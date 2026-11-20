@@ -1,0 +1,8 @@
+# Build output
+/build/
+/target/
+SendMPCVST.jar
+
+# Editors / OS
+*.swp
+.DS_Store
