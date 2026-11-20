@@ -3,6 +3,9 @@
 /target/
 SendMPCVST.jar
 
+# Release artifacts (published on GitHub Releases, not in the tree)
+/Dist/
+
 # Editors / OS
 *.swp
 .DS_Store

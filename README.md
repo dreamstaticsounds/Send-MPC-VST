@@ -57,8 +57,9 @@ Or just double-click `SendMPCVST.jar`, or:
 java -jar SendMPCVST.jar
 ```
 
-A ready-to-run build also ships in `Dist/Send-MPC-VST-v1.0.0/` — use the
-`SendMPCVST.jar` from there if you only have a JRE (no JDK).
+A ready-to-run package (`Send-MPC-VST-v1.0.0.zip` or `.tar.gz`) is attached to the
+[Releases page](https://github.com/dreamstaticsounds/Send-MPC-VST/releases) — extract it
+and use the `SendMPCVST.jar` inside if you only have a JRE (no JDK).
 
 In the window:
 
