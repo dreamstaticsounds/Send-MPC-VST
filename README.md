@@ -2,7 +2,8 @@
 
 A cross-platform (Linux / macOS / Windows) tool for **installing and managing VST2 plugins
 on an Akai MPC** over the network, with a Swing GUI and an equivalent command line. No
-dependencies beyond Java itself — a Java port of the MPC SDK's `tools/mpc_remote.py`
+dependencies beyond Java itself — based on InMusic Software's
+[`mpc_remote.py`](https://github.com/inmusic-software/mpc-plugin-builder-sdk/blob/main/tools/mpc_remote.py)
 (+ its community-package converter), with the same commands and the same behaviour.
 
 The MPC must be on your network with **developer mode** on (that is what starts its SSH
@@ -119,7 +120,8 @@ Options: `--address`, `--password` (or `MPC_SSH_PASSWORD`), `--user`, `--port`, 
 
 ## How it works
 
-The design follows `mpc_remote.py` exactly:
+The design follows [InMusic's `mpc_remote.py`](https://github.com/inmusic-software/mpc-plugin-builder-sdk/blob/main/tools/mpc_remote.py)
+exactly:
 
 * A shell script is streamed to the MPC over `ssh` and executed with `sh -c`.
 * Installing a plugin builds a **tar** of the plugin folder locally (owners normalised to

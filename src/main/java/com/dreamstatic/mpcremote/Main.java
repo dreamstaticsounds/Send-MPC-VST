@@ -11,8 +11,10 @@ import java.util.Map;
 /**
  * Send MPC VST - manage VST2 plugins on an Akai MPC over the network.
  *
- * <p>Java port of mpc_remote.py: same commands, same prompts, same remote scripts. Runs on
- * Linux, Windows and macOS and needs nothing but a JRE and the OpenSSH client.</p>
+ * <p>Java port of InMusic Software's mpc_remote.py
+ * (https://github.com/inmusic-software/mpc-plugin-builder-sdk/blob/main/tools/mpc_remote.py):
+ * same commands, same prompts, same remote scripts. Runs on Linux, Windows and macOS and
+ * needs nothing but a JRE and the OpenSSH client.</p>
  */
 public final class Main {
 
